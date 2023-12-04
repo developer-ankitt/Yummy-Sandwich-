@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/Yummy-Sandwich-/static/css/main.31d6cfe0.css",
+    "main.js": "/Yummy-Sandwich-/static/js/main.f8538e29.js",
+    "index.html": "/Yummy-Sandwich-/index.html",
+    "main.f8538e29.js.map": "/Yummy-Sandwich-/static/js/main.f8538e29.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.f8538e29.js"
+  ]
+}
