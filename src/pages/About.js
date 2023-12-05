@@ -1,21 +1,9 @@
-// import React from 'react'
+import React from 'react'
 
 const About = () => {
   return (
-    <div>Here you can see About section.</div>
+    <div>This is About😁😁😁</div>
   )
 }
 
-export default About;
-
-// const Home = () => {
-//   return (
-//       <>
-//       <h1>
-//           Welcome to Home page of Yummy Sandwich!
-//       </h1>
-//       </>
-//   )
-// }
-
-// export default Home;
+export default About

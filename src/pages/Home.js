@@ -1,11 +1,13 @@
+import React from 'react'
+
 const Home = () => {
-    return (
-        <>
-        <h1>
-            Welcome to Home page of Yummy Sandwich!
-        </h1>
-        </>
-    )
+  return (
+    <>
+    <div className='container'>
+      This is Home❤️❤️❤️
+      </div>
+    </>
+  )
 }
 
-export default Home;
+export default Home
