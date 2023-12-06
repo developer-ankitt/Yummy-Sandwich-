@@ -1,9 +1,9 @@
 import './App.css';
-import Navbar from './components/Navbar';
 // import React, { useState } from 'react';
-import About from './pages/About';
+import Navbar from './components/Navbar';
+import Products from './pages/Products';
 import Home from './pages/Home';
-import Contact from './pages/Contact';
+import Blogs from './pages/Blogs';
 import { Routes, Route } from "react-router-dom"
 
 //--------------------------------- http://localhost:3000/Yummy-Sandwich- -------------------------------------------
@@ -13,12 +13,12 @@ function App() {
 
   return (
     <>
-      <Navbar title="Yummy Sandwich🥪" />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
+      <Navbar title=" Yummy Sandwich" />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/products" element={<Products page1="Products" />} /> {/* props not working*/}
+        <Route path="/blogs" element={<Blogs page2="Blogs" />} />          {/* props not working*/}
+      </Routes>
     </>
   );
 }
