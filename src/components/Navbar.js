@@ -9,7 +9,7 @@ const Navbar = (props) => {
             <nav className={`navbar navbar-expand-lg navbar-dark bg-dark `}>
                 <div className="container-fluid d-flex">
                     {/* <Link className="navbar-brand" to="/">{props.title}</Link> */}
-                        <Link className="navbar-brand" to="/">
+                        <Link className="navbar-brand" to="/Yummy-Sandwich-home">
                             <img style={{borderRadius:100}} src="https://img.freepik.com/free-psd/isolated-hamburger-with-splash-ink-background_1409-3855.jpg?w=740&t=st=1701801024~exp=1701801624~hmac=0cbdad2315d3df229a5e5423595209f8a2ddf08a35ef1ae0f0510a99bba8551e" alt="logo" height="45" className="d-inline-block align-text-center"/>{props.title}
                         </Link>
 
@@ -21,15 +21,15 @@ const Navbar = (props) => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <Link className="nav-link active" aria-current="page" to="/">{props.home}</Link>
+                                <Link className="nav-link active" aria-current="page" to="/Yummy-Sandwich-home">{props.home}</Link>
                             </li>
 
                             <li className="nav-item">
-                                <Link className="nav-link active" aria-current="page" to="/products">{props.page1}</Link>
+                                <Link className="nav-link active" aria-current="page" to="/Yummy-Sandwich-products">{props.page1}</Link>
                             </li>
 
                             <li className="nav-item">
-                                <Link className="nav-link active" aria-current="page" to="/blogs">{props.page2}</Link>
+                                <Link className="nav-link active" aria-current="page" to="/Yummy-Sandwich-blogs">{props.page2}</Link>
                             </li>
                         </ul>
                     </div>

@@ -15,9 +15,9 @@ function App() {
     <>
       <Navbar title=" Yummy Sandwich" />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/products" element={<Products page1="Products" />} /> {/* props not working*/}
-        <Route path="/blogs" element={<Blogs page2="Blogs" />} />          {/* props not working*/}
+        <Route path="/Yummy-Sandwich-home" element={<Home />} />
+        <Route path="/Yummy-Sandwich-products" element={<Products page1="Products" />} /> {/* props not working*/}
+        <Route path="/Yummy-Sandwich-blogs" element={<Blogs page2="Blogs" />} />          {/* props not working*/}
       </Routes>
     </>
   );
