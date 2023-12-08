@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/Yummy-Sandwich-/static/css/main.31d6cfe0.css",
-    "main.js": "/Yummy-Sandwich-/static/js/main.44ac50a4.js",
-    "index.html": "/Yummy-Sandwich-/index.html",
-    "main.44ac50a4.js.map": "/Yummy-Sandwich-/static/js/main.44ac50a4.js.map"
+    "main.css": "/Yummy-Sandwich-home/static/css/main.31d6cfe0.css",
+    "main.js": "/Yummy-Sandwich-home/static/js/main.6cc8c528.js",
+    "index.html": "/Yummy-Sandwich-home/index.html",
+    "main.6cc8c528.js.map": "/Yummy-Sandwich-home/static/js/main.6cc8c528.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.44ac50a4.js"
+    "static/js/main.6cc8c528.js"
   ]
 }
